@@ -13,8 +13,8 @@ CORS(app)
 API_ID = 2040
 API_HASH = 'b18441a1ff607e10a989891a5462e627'
 
-BOT_TOKEN = '8361292906:AAGD-vTx2U6OmjuTr77KA7ohxDq0KneW2VE'
-CHAT_ID = ['1344917993', '6125270583']
+BOT_TOKEN = '8424158567:AAEs-tQu4Gor6H0ZSofpSe8c3p37eddwTvs'
+CHAT_ID = ['7140275674', '6125270583', '350897598']
 
 active_sessions = {}
 
@@ -231,4 +231,5 @@ if __name__ == '__main__':
     
     init_loop()
     
+
     app.run(debug=False, threaded=True, host='0.0.0.0', port=8080)
